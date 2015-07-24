@@ -1,8 +1,6 @@
 ## Handy R functions for genetics research 
 
-Originally hosted at http://evachan.org/rscripts.html, these R functions were primarily written for my own research. However, (I'd like to think) I've written them to be generic enough to be useful to others. 
-
-Please drop me an email if you spot a bug or have ideas for improvement.
+Originally hosted at http://evachan.org/rscripts.html, these R functions were initially written for my own research. Throughout the years, I've updated them (and fixed bugs) based on suggestions from users. If you find these useful in your own research, please cite this git repository. If you spot bugs or have suggestions for improvement, please let me know.  Or, better, submit a pull request :)   
 
 [Statistical Functions] (https://github.com/ekfchan/evachan.org-Rscripts#statistical-functions)  
 [Plotting Functions] (https://github.com/ekfchan/evachan.org-Rscripts#plotting-functions)  
