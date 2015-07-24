@@ -61,9 +61,9 @@ Generates a visual representation of the genetic positions of a set of markers.
 A function to plot sets of markers on a map where the markers are coloured based on a defined variable.   
 
 
-###Example Data and Usage###
+###Example Data and Usage
 
-#####Example I#####  
+#####Example I  
 [exampleI.R](https://github.com/ekfchan/evachan.org-Rscripts/blob/master/rscripts/exampleI.R)  
 Download and read exampleI.R first. This script contains several very simple lines of codes for creating a geno and a subpop object, and their usages in the following scripts: 
 ```R
@@ -82,12 +82,12 @@ A R workspace containing an instance of a _geno_ and _subpop_ objects used in [e
 [exampleI_functions.RData](https://github.com/ekfchan/evachan.org-Rscripts/blob/master/rscripts/exampleI_functions.RData)  
 A R workspace containing all functions used in [exampleI.R](https://github.com/ekfchan/evachan.org-Rscripts/blob/master/rscripts/exampleI.R).  
 
-#####Example II#####
+#####Example II  
 ```R
 geno <- simgeno()
 alleleCount <- geno_to_allelecnt(geno)
 ```
 
 ![exampleI.ASdist.nj](https://github.com/ekfchan/evachan.org-Rscripts/blob/master/rscripts/exampleI.ASdist.nj.png "NJ Tree of AS Distance Matrix")  
-**Figure: NJ tree of from Example I**  
+**Figure: NJ tree from Example I**  
 
