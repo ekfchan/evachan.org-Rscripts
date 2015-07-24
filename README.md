@@ -4,11 +4,11 @@ Originally hosted at http://evachan.org/rscripts.html, these R functions were pr
 
 Please drop me an email if you spot a bug or have ideas for improvement.
 
-[Statistical Functions] (https://github.com/ekfchan/evachan.org-Rscripts/blob/master/README.md#statistics)  
-[Plotting Functions] (https://github.com/ekfchan/evachan.org-Rscripts/blob/master/README.md#plots)  
+[Statistical Functions] (../blob/master/README.md#stats)
+[Plotting Functions] (../blob/master/README.md#plots)  
 [Example Data] (https://github.com/ekfchan/evachan.org-Rscripts/blob/master/README.md#examples)  
 
-###Statistical Functions###
+###Statistical Functions
 
 [geno_to_allelecnt.R](https://github.com/ekfchan/evachan.org-Rscripts/blob/master/rscripts/geno_to_allelecnt.R)  
 A function to convert biallelic unphased SNP genotypes, such as {AA,CC,GG,TT,AC,AG,AT,CG,CT,GT}, to number of copies/counts {0,1,2} of the reference (or arbitrary) allele.  
