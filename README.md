@@ -6,6 +6,11 @@ Originally hosted at http://evachan.org/rscripts.html, these R functions were in
 [Plotting Functions] (https://github.com/ekfchan/evachan.org-Rscripts#plotting-functions)  
 [Example Data] (https://github.com/ekfchan/evachan.org-Rscripts/blob/master/README.md#example-data-and-usage)   
 
+###The *geno* object
+
+The geno object (see [exampleI.R](https://github.com/ekfchan/evachan.org-Rscripts/blob/master/rscripts/exampleI.R)) on which all analysis depend was originally written for diploid data. All R functions in the repository should be applicable to diploid data. In some cases, should also be applicable to multi-allelic data. In fact, when these functions were written, they were geared towards genotyping array data. Keep that in mind when using these scripts.
+
+
 ###Statistical Functions
 
 [geno_to_allelecnt.R](https://github.com/ekfchan/evachan.org-Rscripts/blob/master/rscripts/geno_to_allelecnt.R)  
