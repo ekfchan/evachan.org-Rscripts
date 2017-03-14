@@ -23,10 +23,10 @@ geno_to_allelecnt <- function(geno, ref=NULL) {
 	markers <- data.frame( N=rowSums(!is.na(geno)) ) 
 	
 	alleles <- apply(cbind(substr(geno,1,1),substr(geno,2,2)),1,unique) 
-	if( is.matrix(alleles) ) { alleles <- lapply(apply(alleles,1,as.list),as.character) }
+	if( is.matrix(alleles) ) { alleles <- lapply(apply(alleles,2,as.list),as.character) }	#2017-03-15: corrected apply direction
 	alleles <- lapply(alleles,sort)
 	markers$numAlleles = sapply(alleles,length)
-	if( any(markers$numAlleles>2) ) { stop("geno contains more than two alleles.\n") }
+	if( any(markers$numAlleles>2) ) { stop("markers {",paste(which(markers$numAlleles>2),collapse=","),"} contains more than two alleles.\n") }
 
 	markers$A1 = NA
 	inds <- which(markers$numAlleles>0)
